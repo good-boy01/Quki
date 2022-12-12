@@ -8,3 +8,7 @@ please dont copy the code without permission !
 How does it work ? 
 
 quki receives a voice command , using speach_recognizition it converts it to a str , then using the main code it gives an output and speaks something ! 
+
+
+
+[Seminar Proposal.pdf](https://github.com/Its-ili/Quki/files/10207163/Seminar.Proposal.pdf)
