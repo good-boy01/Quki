@@ -11,4 +11,5 @@ quki receives a voice command , using speach_recognizition it converts it to a s
 
 
 
-[Seminar Proposal.pdf](https://github.com/Its-ili/Quki/files/10207163/Seminar.Proposal.pdf)
+
+[Seminar Proposal-Eng.docx](https://github.com/Its-ili/Quki/files/10207245/Seminar.Proposal-Eng.docx)
