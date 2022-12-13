@@ -1,15 +1,48 @@
 # Quki
- A virtuall assistant that helps with everyday tasks!
- 
-big thanks to guarav for helping in the proccess (: 
 
-please dont copy the code without permission ! 	
-![Logo](https://user-images.githubusercontent.com/118632534/206994431-f4d52735-b188-4740-ab8d-5759acc21ca6.png)
-How does it work ? 
+Your personal virtual assistant 
 
-quki receives a voice command , using speach_recognizition it converts it to a str , then using the main code it gives an output and speaks something ! 
+## Description
+
+Quki is a virtual assistant made using python , it acceses your device mic  and listen to the command . Next it converts the audio to a str ( using speach_recognition) and checks the commands , after finding the right command it gives an audio output and does what the command is .
+
+## Getting Started
+
+### Dependencies
+
+libraries: 
+* subprocess
+* wolframalpha
+* pyttsx3
+*  tkinter
+*  json
+*  random
+*  operator
+*  speech_recognition 
+*  datetime
+*  wikipedia
+*  webbrowser
+*  os
+*  winshell
+* pyjokes
+* feedparser
+* smtplib
+* ctypes
+* time
+* requests
+* shutil
+* random
+* twilio.rest 
+* clint.textui 
+* ecapture 
+* bs4 
+* win32com.client 
+* urllib.request 
 
 
+## Authors
 
+Ilia khanmohamadi - Ario ashouri
 
-[Seminar Proposal-Eng.docx](https://github.com/Its-ili/Quki/files/10207245/Seminar.Proposal-Eng.docx)
+[@Its-ili](https://github.com/Its-ili)
+
