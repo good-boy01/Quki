@@ -2,6 +2,8 @@
 
 Your personal virtual assistant 
 
+
+
 ## Description
 
 Quki is a virtual assistant made using python , it acceses your device mic  and listen to the command . Next it converts the audio to a str ( using speach_recognition) and checks the commands , after finding the right command it gives an audio output and does what the command is .
