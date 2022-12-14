@@ -46,3 +46,4 @@ Ilia khanmohamadi - Ario ashouri
 
 [@Its-ili](https://github.com/Its-ili)
 
+[Seminar Proposal-Eng.docx](https://github.com/Its-ili/Quki/files/10226877/Seminar.Proposal-Eng.docx)
