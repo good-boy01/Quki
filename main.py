@@ -359,8 +359,8 @@ if __name__ == '__main__':
         elif "i need food" in query:
                 webbrowser.open("snappfood.ir")
         
-        elif "i love seminar" in query : 
-            speak("good to hear that, Welcome to the thirty seventh seminar ! ")
+        ##elif "i love seminar" in query : 
+            ##speak("good to hear that, Welcome to the thirty seventh seminar ! ")
 
         elif "How do you work " in query:
             speak("its a secret , but you can ask ilia or ario ")
