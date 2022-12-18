@@ -10,36 +10,37 @@ Quki is a virtual assistant made using python , it acceses your device mic  and 
 
 ## Getting Started
 
+
 ### Dependencies
 
 libraries: 
-* subprocess
-* wolframalpha
-* pyttsx3
-*  tkinter
-*  json
-*  random
-*  operator
-*  speech_recognition 
-*  datetime
-*  wikipedia
-*  webbrowser
-*  os
-*  winshell
-* pyjokes
-* feedparser
-* smtplib
-* ctypes
-* time
-* requests
-* shutil
-* random
-* twilio.rest 
-* clint.textui 
-* ecapture 
-* bs4 
-* win32com.client 
-* urllib.request 
+ subprocess-
+ wolframalpha-
+ pyttsx3-
+  tkinter-
+  json-
+  random-
+  operator-
+  speech_recognition -
+  datetime-
+  wikipedia-
+  webbrowser-
+  os-
+  winshell-
+ pyjokes-
+ feedparser-
+ smtplib-
+ ctypes-
+ time-
+ requests-
+ shutil-
+ random-
+ twilio.rest -
+ clint.textui -
+ ecapture -
+ bs4 -
+ win32com.client -
+ urllib.request 
 
 
 ## Authors
