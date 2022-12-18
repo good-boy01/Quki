@@ -40,7 +40,9 @@ libraries:
  ecapture -
  bs4 -
  win32com.client -
- urllib.request 
+ urllib.request -
+ [requirements.txt](https://github.com/Its-ili/Quki/files/10253850/requirements.txt)
+
 
 
 ## Authors
