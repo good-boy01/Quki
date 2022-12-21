@@ -365,6 +365,7 @@ if __name__ == '__main__':
         elif "How do you work " in query:
             speak("its a secret , but you can ask ilia or ario ")
         
-        
+        elif "Can you swear" in query : 
+            speak('no , swearing is not in my programs')
         
         
