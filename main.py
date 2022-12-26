@@ -123,13 +123,7 @@ if __name__ == '__main__':
             speak("Here you go to Stack Over flow  , Good luck ")
             webbrowser.open("stackoverflow.com")
 
-        #elif 'play music' in query or "play song" in query:
-            #speak("Here you go with music")
-            # music_dir = "G:\\Song"
-            #music_dir = "C:\\Users\\GAURAV\\Music"
-            #songs = os.listdir(music_dir)
-            #print(songs)   
-            #random = os.startfile(os.path.join(music_dir, songs[1]))
+        
         
         elif 'the time' in query:
             strtime = datetime.datetime.now()
