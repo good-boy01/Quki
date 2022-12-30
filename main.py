@@ -306,12 +306,12 @@ if __name__ == '__main__':
         elif "i love you" in query:
             speak("It's hard to understand , because im an AI and dont have feelings , but thanks")
         
-        elif "what is" in query or "who is" in query:
+        #elif "what is" in query or "who is" in query:
              
             # Use the same API key
             # that we have generated earlier
-            client = wolframalpha.Client("API_ID")
-            res = client.query(query)
+            #client = wolframalpha.Client("API_ID")
+            #res = client.query(query)
 
             try:
                 print (next(res.results).text)
