@@ -362,4 +362,7 @@ if __name__ == '__main__':
         elif "Can you swear" in query : 
             speak('no , swearing is not in my programs')
         
+        elif "Discord" in query :
+            speak("here you go to ilia and arios discord server")
+            webbrowser.open("https://discord.gg/3e8T9CQV86")
         
