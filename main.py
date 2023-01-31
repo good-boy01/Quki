@@ -1,6 +1,6 @@
 # moudles
 import subprocess
-import wolframalpha
+import wolframalpha 
 import pyttsx3
 import tkinter
 import json
@@ -20,12 +20,14 @@ import time
 import requests
 import shutil
 import random
+import pygame
 from twilio.rest import Client
 from clint.textui import progress
 from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
 import win32com.client as wincl
 from urllib.request import urlopen
+
 #voice settings and engine
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -124,23 +126,12 @@ if __name__ == '__main__':
             webbrowser.open("stackoverflow.com")
 
         
-        
         elif 'the time' in query:
             strtime = datetime.datetime.now()
 
             speak(f"the time is {strtime}")
         
-        #elif 'email to developer' in query:
-            #try:
-                #speak("What should I say?")
-                #content = takeCommand()
-                #to = "Receiver email address"   
-                #sendEmail(to, content)
-                #speak("Email has been sent !")
-            #except Exception as e:
-                #print(e)
-                #speak("I am not able to send this email")
-
+    
         
 
         elif 'how are you' in query:
@@ -269,7 +260,7 @@ if __name__ == '__main__':
              
             # Google Open weather website
             # to get API of Open weather
-            api_key = "Api key"
+            api_key = "AIzaSyDw_p0ea7zzAk7PGtFtC0zO4yGOnNfsRco"
             base_url = "http://api.openweathermap.org / data / 2.5 / weather?"
             speak(" City name ")
             print("City name : ")
@@ -306,12 +297,12 @@ if __name__ == '__main__':
         elif "i love you" in query:
             speak("It's hard to understand , because im an AI and dont have feelings , but thanks")
         
-        #elif "what is" in query or "who is" in query:
+        elif "what is" in query or "who is" in query:
              
             # Use the same API key
             # that we have generated earlier
-            #client = wolframalpha.Client("API_ID")
-            #res = client.query(query)
+            client = wolframalpha.Client("AIzaSyDw_p0ea7zzAk7PGtFtC0zO4yGOnNfsRco")
+            res = client.query(query)
 
             try:
                 print (next(res.results).text)
@@ -348,21 +339,22 @@ if __name__ == '__main__':
             webbrowser.open("open.spotify.com")
         
         elif "play a game" in query:
+            speak("ok , hear you go , have fun ")
+            exec(file("game.py"))
             execfile("game.py")
         
-        elif "i need food" in query:
+        elif "i need food" in query or "i am hungry" in query:
                 webbrowser.open("snappfood.ir")
         
-        ##elif "i love seminar" in query : 
-            ##speak("good to hear that, Welcome to the thirty seventh seminar ! ")
+        elif " I love seminar" in query: 
+            speak("good to hear that, Welcome to the thirty seventh seminar ! ")
 
-        elif "How do you work " in query:
+        elif "how do you work " in query:
             speak("its a secret , but you can ask ilia or ario ")
-        
-        elif "Can you swear" in query : 
+
+        elif "Can you swear" in query:
             speak('no , swearing is not in my programs')
+
+
         
-        elif "Discord" in query :
-            speak("here you go to ilia and arios discord server")
-            webbrowser.open("https://discord.gg/3e8T9CQV86")
         
