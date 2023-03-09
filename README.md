@@ -52,6 +52,6 @@ libraries:
 
 Ilia khanmohamadi - Ario ashouri
 
-[@Its-ili](https://github.com/Its-ili)
+[@Its-ili](https://github.com/Its-ili) [@DumbWeirdoC](https://github.com/DumbWeirdoC
 
  proposal : [Seminar Proposal-Eng.docx](https://github.com/Its-ili/Quki/files/10226877/Seminar.Proposal-Eng.docx)
