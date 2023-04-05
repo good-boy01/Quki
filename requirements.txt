@@ -15,7 +15,7 @@ docutils==0.19
 ecapture==2.0.2
 feedparser==6.0.10
 gitdb==4.0.10
-GitPython==3.1.29
+GitPython==3.1.30
 gTTS==2.3.0
 idna==3.4
 isort==5.10.1
