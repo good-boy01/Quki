@@ -5,6 +5,11 @@ Your personal virtual assistant
 
 ![Logo](https://user-images.githubusercontent.com/118632534/223983627-6d03ed12-5f72-4245-bd05-5dbce8d2e710.png)
 
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Its-ili/Quki/blob/main/LICENSE)
 
 
 ## Description
