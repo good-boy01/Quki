@@ -7,7 +7,7 @@ Your personal virtual assistant
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
+Add badges from somewhere like: 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Its-ili/Quki/blob/main/LICENSE)
 
