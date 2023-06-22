@@ -1,4 +1,4 @@
-#moudels 
+# moudles
 import subprocess
 import wolframalpha 
 import pyttsx3
@@ -12,7 +12,6 @@ import wikipedia
 import webbrowser
 import os
 import winshell
-import pyjokes
 import feedparser
 import smtplib
 import ctypes
@@ -21,6 +20,7 @@ import requests
 import shutil
 import random
 import pygame
+import wx
 from twilio.rest import Client
 from clint.textui import progress
 from ecapture import ecapture as ec
@@ -48,20 +48,11 @@ def wishMe():
         speak("Good Evening Sir !") 
   
     assname =("Quki")
-    speak("I am your Assistant")
-    speak(assname)
+    
 def username():
-    speak("What should i call you sir")
-    uname = takeCommand()
-    speak("Welcome Mister")
-    speak(uname)
-    columns = shutil.get_terminal_size().columns
+    
      
-    print("#####################".center(columns))
-    print("Welcome Mr.", uname.center(columns))
-    print("#####################".center(columns))
-     
-    speak("How can i Help you, Sir")
+    speak("How can i Help you")
 def takeCommand():
      
     r = sr.Recognizer()
@@ -83,6 +74,16 @@ def takeCommand():
         return "None"
      
     return query
+##def sendEmail(to, content):
+    #server = smtplib.SMTP('smtp.gmail.com', 587)
+    #server.ehlo()
+    #server.starttls()
+    #server.login('kh.ilia@yahoo.com', 'Dalam123')
+    #server.sendmail('your email id', to, content)
+    #server.close()
+##frame
+
+
 
 #main
 if __name__ == '__main__':
@@ -125,7 +126,7 @@ if __name__ == '__main__':
 
             speak(f"the time is {strtime}")
         
-    
+         
         
 
         elif 'how are you' in query:
@@ -157,7 +158,11 @@ if __name__ == '__main__':
             speak("I have been created by Ilia khanmohamedi")
         
         elif 'joke' in query:
-            speak(pyjokes.get_joke())
+            f = open("jokes.txt",'r')
+            x = random.randint(1,15)
+            jokes = f.readlines()
+            joke = jokes[x]
+            speak(joke)
         
         
         
@@ -255,14 +260,14 @@ if __name__ == '__main__':
             # Google Open weather website
             # to get API of Open weather
             api_key = "AIzaSyDw_p0ea7zzAk7PGtFtC0zO4yGOnNfsRco"
-            base_url = "http://api.openweathermap.org / data / 2.5 / weather?"
+            base_url = "http://api.openweathermap.org/data/2.5/weather?"
             speak(" City name ")
             print("City name : ")
             city_name = takeCommand()
             complete_url = base_url + "appid =" + api_key + "&q =" + city_name
             response = requests.get(complete_url)
             x = response.json()
-             
+            
             if x["code"] != "404":
                 y = x["main"]
                 current_temperature = y["temp"]
@@ -333,9 +338,11 @@ if __name__ == '__main__':
             webbrowser.open("open.spotify.com")
         
         elif "play a game" in query:
-            speak("ok , hear you go , have fun ")
-            exec(file("game.py"))
-            execfile("game.py")
+           
+            speak("here you go to pong , have fun ")
+            execfile("game1.py")
+            
+           
         
         elif "i need food" in query or "i am hungry" in query:
                 webbrowser.open("snappfood.ir")
@@ -349,6 +356,6 @@ if __name__ == '__main__':
         elif "Can you swear" in query:
             speak('no , swearing is not in my programs')
 
-
+        
         
         
