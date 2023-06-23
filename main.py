@@ -83,13 +83,7 @@ def takeCommand():
         return "None"
      
     return query
-##def sendEmail(to, content):
-    #server = smtplib.SMTP('smtp.gmail.com', 587)
-    #server.ehlo()
-    #server.starttls()
-    #server.login('kh.ilia@yahoo.com', 'Dalam123')
-    #server.sendmail('your email id', to, content)
-    #server.close()
+
 #main
 if __name__ == '__main__':
     clear = lambda: os.system('cls')
