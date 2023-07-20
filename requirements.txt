@@ -39,7 +39,7 @@ PyAudio==0.2.12
 pycparser==2.21
 pydub==0.25.1
 pygame==2.1.2
-Pygments==2.13.0
+Pygments==2.15.0
 pyjokes==0.6.0
 PyJWT==2.6.0
 pylint==2.15.6
